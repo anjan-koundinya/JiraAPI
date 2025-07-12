@@ -27,5 +27,6 @@ Scenario Outline: To Create an Issue
     |summary	|
     |BDD RestAssured Issue-1 |
     |BDD RestAssured Issue-2 |
+    |BDD RestAssured Issue- New |
 
 
