@@ -15,27 +15,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Sun, 15 Jun 2025 15:31:24 GMT
+Date: Sat, 12 Jul 2025 09:25:35 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 179812789dea4007ea0b3ba7cb1d5257
-Set-Cookie: atlassian.xsrf.token=8c76f398235c35764a991c1a06cae239bb6edc60_lin; Path=/; SameSite=None; Secure
+X-Arequestid: b7f20daf0745d70858a3f84b07a61e96
+Set-Cookie: atlassian.xsrf.token=7bcb1af630edb855194641f72992daeeaa597b65_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 9858afaec4f8472ea1247b1a70602746
-Atl-Request-Id: 9858afae-c4f8-472e-a124-7b1a70602746
+Atl-Traceid: c5e1aa3f62d044b2973b9c60a0a1a8c7
+Atl-Request-Id: c5e1aa3f-62d0-44b2-973b-9c60a0a1a8c7
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 130ae13143b56514a254a12a887e42ea.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: BLR50-P2
-X-Amz-Cf-Id: 6GRE18toMj8cS03qB0_tvy1sgbSWr0ZzGZ4_9atdsSgH0qVNc_aVig==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=17,cdn-upstream-fbl;dur=422,atl-edge;dur=370,atl-edge-internal;dur=88,atl-edge-upstream;dur=282,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P2",cdn-rid;desc="6GRE18toMj8cS03qB0_tvy1sgbSWr0ZzGZ4_9atdsSgH0qVNc_aVig==",cdn-downstream-fbl;dur=426
+Via: 1.1 303e917d845d3965f206781fd60fa0d4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P4
+X-Amz-Cf-Id: bEMlfm3pHs3dwrptDVbSJnP1axodFvQDOJ3WPMsGZBHgAHCuykUYRQ==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=21,cdn-upstream-fbl;dur=688,atl-edge;dur=600,atl-edge-internal;dur=220,atl-edge-upstream;dur=380,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P4",cdn-rid;desc="bEMlfm3pHs3dwrptDVbSJnP1axodFvQDOJ3WPMsGZBHgAHCuykUYRQ==",cdn-downstream-fbl;dur=692
 
 {
     "self": "https://debugtrack.atlassian.net/rest/api/2/project/search?maxResults=50&startAt=0",
@@ -149,27 +149,27 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Sun, 15 Jun 2025 15:31:26 GMT
+Date: Sat, 12 Jul 2025 09:25:37 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 78f71f019da6864a07b67659fe6e2f24
-Set-Cookie: atlassian.xsrf.token=c959e3da49eb8ba6bfa0c9dc78d3a53941ab9af2_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 32602898b2f95af71af8133e00519051
+Set-Cookie: atlassian.xsrf.token=514c1d8a39bd1d0a1c847ee7a3601a0dfef4887c_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 19810513e5204ccdbb0c6441a44546b1
-Atl-Request-Id: 19810513-e520-4ccd-bb0c-6441a44546b1
+Atl-Traceid: a3161db976084d05aba8cfca4cab89bc
+Atl-Request-Id: a3161db9-7608-4d05-aba8-cfca4cab89bc
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 21398bddf40ffbb1d89eefa9af19b88e.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: BLR50-P2
-X-Amz-Cf-Id: akARTZx4WitRGtCRKH71scroC1w9qlHRySDDPdCWYZE2PTmF0QWr-A==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=16,cdn-upstream-fbl;dur=283,atl-edge;dur=215,atl-edge-internal;dur=14,atl-edge-upstream;dur=201,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P2",cdn-rid;desc="akARTZx4WitRGtCRKH71scroC1w9qlHRySDDPdCWYZE2PTmF0QWr-A==",cdn-downstream-fbl;dur=287
+Via: 1.1 0097aa34ea66467022ef0da8e933e098.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P1
+X-Amz-Cf-Id: 3lHoyiEMgHSoC0oAOrG8PAckbqfymGm92jd3MQogCOkpMYUYrkpzxw==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=22,cdn-upstream-fbl;dur=426,atl-edge;dur=337,atl-edge-internal;dur=15,atl-edge-upstream;dur=322,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P1",cdn-rid;desc="3lHoyiEMgHSoC0oAOrG8PAckbqfymGm92jd3MQogCOkpMYUYrkpzxw==",cdn-downstream-fbl;dur=431
 
 [
     {
@@ -266,31 +266,31 @@ HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Sun, 15 Jun 2025 15:31:28 GMT
+Date: Sat, 12 Jul 2025 09:25:38 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: a80dcc1d52c6de6b73cbacc3a49a6fac
-Set-Cookie: atlassian.xsrf.token=3b9f407bc1799e8aefc278a97b01380df8b2cd40_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 677c96400ec8e1ab60c52bdaf146d9bd
+Set-Cookie: atlassian.xsrf.token=603584b7c740a8348bdb64294683402e47751feb_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: c01c59554937410fac43ee0c477bb5c4
-Atl-Request-Id: c01c5955-4937-410f-ac43-ee0c477bb5c4
+Atl-Traceid: 2e672a54a3d34c79a03ace6a45a5decb
+Atl-Request-Id: 2e672a54-a3d3-4c79-a03a-ce6a45a5decb
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 2f8bce85b3232f01dc0a9ceec714d90c.cloudfront.net (CloudFront)
+Via: 1.1 9a5f7993ae8aa6b11950605aada73158.cloudfront.net (CloudFront)
 X-Amz-Cf-Pop: BLR50-P4
-X-Amz-Cf-Id: HWeAqAm5dgvLMNr5YfeVQSt1CmVWkgJEJuHQ5Ll5YHJcqoXIw1uN_Q==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=17,cdn-upstream-fbl;dur=809,atl-edge;dur=739,atl-edge-internal;dur=17,atl-edge-upstream;dur=723,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P4",cdn-rid;desc="HWeAqAm5dgvLMNr5YfeVQSt1CmVWkgJEJuHQ5Ll5YHJcqoXIw1uN_Q==",cdn-downstream-fbl;dur=814
+X-Amz-Cf-Id: D5v51T_0J2aSaAusYwVzica8_zVKxZz-MWOpO2_hkWUrdZNEJacPvg==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=647,atl-edge;dur=624,atl-edge-internal;dur=16,atl-edge-upstream;dur=608,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P4",cdn-rid;desc="D5v51T_0J2aSaAusYwVzica8_zVKxZz-MWOpO2_hkWUrdZNEJacPvg==",cdn-downstream-fbl;dur=651
 
 {
-    "id": "10233",
-    "key": "BUG-28",
-    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10233"
+    "id": "10271",
+    "key": "BUG-37",
+    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10271"
 }
 Request method:	POST
 Request URI:	https://debugtrack.atlassian.net/rest/api/2/issue
@@ -320,29 +320,83 @@ HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Sun, 15 Jun 2025 15:31:28 GMT
+Date: Sat, 12 Jul 2025 09:25:39 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 52aefbbc69ee97eb6d240c4c982e75d3
-Set-Cookie: atlassian.xsrf.token=0139bc0bf882eda03eadfc4d2d4e5556c083a5a6_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 5a744892df21e69794ef207bcd1e66b3
+Set-Cookie: atlassian.xsrf.token=0aa8c8f7c19c4ab81d76714179f3f83f33a15079_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: a00f02171175451886738b88ddb02737
-Atl-Request-Id: a00f0217-1175-4518-8673-8b88ddb02737
+Atl-Traceid: 19eda9395b5e43ee9ee4395144f8819a
+Atl-Request-Id: 19eda939-5b5e-43ee-9ee4-395144f8819a
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 dcff30a8fb0dd981edbe6cec4a882dcc.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: BLR50-P4
-X-Amz-Cf-Id: eCbbx2i5oUPua2ENwuGhyh3EMiytJ4xjSV5_SlIog_GdW4HFo3sMig==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=641,atl-edge;dur=623,atl-edge-internal;dur=18,atl-edge-upstream;dur=604,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P4",cdn-rid;desc="eCbbx2i5oUPua2ENwuGhyh3EMiytJ4xjSV5_SlIog_GdW4HFo3sMig==",cdn-downstream-fbl;dur=645
+Via: 1.1 a9b8935c1fcdbf3e2d9addc05a30ec34.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P3
+X-Amz-Cf-Id: 1oA2IqIpveJG6mOHT7c4l1mFVzoMhfgvNEQLuI1SnTnBzo2Krsrnkw==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=21,cdn-upstream-fbl;dur=580,atl-edge;dur=493,atl-edge-internal;dur=14,atl-edge-upstream;dur=478,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P3",cdn-rid;desc="1oA2IqIpveJG6mOHT7c4l1mFVzoMhfgvNEQLuI1SnTnBzo2Krsrnkw==",cdn-downstream-fbl;dur=584
 
 {
-    "id": "10234",
-    "key": "BUG-29",
-    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10234"
+    "id": "10272",
+    "key": "BUG-38",
+    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10272"
+}
+Request method:	POST
+Request URI:	https://debugtrack.atlassian.net/rest/api/2/issue
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Basic YW5qYW5za291bmRpbnlhQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjBvVnFOTW1nZ3pLeTB3cjNvX3lqM2lhYjhySW5YbkpFazFtckNjWmRITV9rRFJEX1o0WDZyM3NCSGlrQzlLX1VuZWpaNWxKcDFtMnh5RTNyWl91ZzgxTEp5a09HbUFqbWlOSEdWZkg5SFVHNEtEZm9jZlhLRlJKekduSUgweUNBajVHVko2WlI3eV83ZDlQTjcwYmdKdjVLOUVhVVU1OEJIckQ2YkFTVk85TkE9OENFRjU3N0E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "fields": {
+        "issuetype": {
+            "id": "10014"
+        },
+        "project": {
+            "id": "10002"
+        },
+        "summary": "BDD RestAssured Issue- New"
+    }
+}
+HTTP/1.1 201 Created
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sat, 12 Jul 2025 09:25:41 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: caacfb562444f93d1a542977ce1e12fe
+Set-Cookie: atlassian.xsrf.token=6600a3fd27cc08062dd99a7bfeabb3ce297a777b_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
+Cache-Control: no-cache, no-store, no-transform
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: a5035cc0e02e46ad9f9933e569c4d5ec
+Atl-Request-Id: a5035cc0-e02e-46ad-9f99-33e569c4d5ec
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 9383f439239cbd86ffd68eab0c78eb0c.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P1
+X-Amz-Cf-Id: yRsJkt90kOLkalQToNlE3CW84_9pO-LIGmenrFefuU_-kxawhyFsHA==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=22,cdn-upstream-fbl;dur=759,atl-edge;dur=669,atl-edge-internal;dur=16,atl-edge-upstream;dur=653,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P1",cdn-rid;desc="yRsJkt90kOLkalQToNlE3CW84_9pO-LIGmenrFefuU_-kxawhyFsHA==",cdn-downstream-fbl;dur=763
+
+{
+    "id": "10273",
+    "key": "BUG-39",
+    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10273"
 }
