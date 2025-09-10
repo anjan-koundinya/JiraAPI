@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "key": {
+      "type": "string"
+    },
+    "self": {
+      "type": "string",
+      "format": "uri"
+    }
+  },
+  "required": ["id", "key", "self"]
+}

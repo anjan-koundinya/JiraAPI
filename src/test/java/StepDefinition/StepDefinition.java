@@ -1,6 +1,5 @@
 package StepDefinition;
 
-import POJO.Fields;
 import io.cucumber.java.en.*;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
@@ -11,7 +10,9 @@ import resources.Utility;
 import java.io.IOException;
 
 import static io.restassured.RestAssured.given;
+import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertThat;
 
 public class StepDefinition extends Utility {
     RequestSpecification response;
@@ -80,6 +81,7 @@ public class StepDefinition extends Utility {
 
         String IssueID = getJsonPaths(GetProjectResponse,id);
         System.out.println(IssueID);
+        GetProjectResponse.then().assertThat().body(matchesJsonSchemaInClasspath("user-schema.json"));
 
     }
 }
