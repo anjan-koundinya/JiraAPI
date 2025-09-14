@@ -15,32 +15,32 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Tue, 09 Sep 2025 06:55:13 GMT
+Date: Sun, 14 Sep 2025 15:04:50 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: b668672c2b093ee8cea8290db628aad1
-Set-Cookie: atlassian.xsrf.token=6fee90752344b0eb4406d6d3780b27cc28ff420a_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 7e05291e41c38422c7dae95e35d3e83f
+Set-Cookie: atlassian.xsrf.token=b2483639b094d2c84ecde3b37ec9486ddba52aeb_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 X-Beta-Ratelimit-Limit: 350
 X-Beta-Ratelimit-Remaining: 349
 Beta-Retry-After: 1
-X-Beta-Ratelimit-Reset: 2025-09-09T06:55Z
+X-Beta-Ratelimit-Reset: 2025-09-14T15:04Z
 X-Beta-Ratelimit-Reason: jira-burst-based
 Vary: Accept-Encoding
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 2d8368fa89844fc3972d4bc50d699c79
-Atl-Request-Id: 2d8368fa-8984-4fc3-972d-4bc50d699c79
+Atl-Traceid: f158e47a9c7047c7942c76a93c7d7a0f
+Atl-Request-Id: f158e47a-9c70-47c7-942c-76a93c7d7a0f
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 4cd05d047766f76eb43f5ed75172e95e.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: BLR50-P3
-X-Amz-Cf-Id: Qbm1fZPQ36tKUKwtCAj7AkgwbQ_Pb4dunM--T84g9kng7rKkM1Gl_Q==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=17,cdn-upstream-fbl;dur=430,atl-edge;dur=358,atl-edge-internal;dur=81,atl-edge-upstream;dur=228,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P3",cdn-rid;desc="Qbm1fZPQ36tKUKwtCAj7AkgwbQ_Pb4dunM--T84g9kng7rKkM1Gl_Q==",cdn-downstream-fbl;dur=434
+Via: 1.1 570e7526491451bf97ab73c18f44c2f8.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P2
+X-Amz-Cf-Id: yWDk6WrVc7eRD_4-8ylryici_iEmtBWWfcvyRbInB4sHPrG2ZWbNPw==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=17,cdn-upstream-fbl;dur=342,atl-edge;dur=290,atl-edge-internal;dur=16,atl-edge-upstream;dur=274,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P2",cdn-rid;desc="yWDk6WrVc7eRD_4-8ylryici_iEmtBWWfcvyRbInB4sHPrG2ZWbNPw==",cdn-downstream-fbl;dur=347
 
 {
     "self": "https://debugtrack.atlassian.net/rest/api/2/project/search?maxResults=50&startAt=0",
@@ -138,10 +138,10 @@ Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstrea
     ]
 }
 Request method:	GET
-Request URI:	https://debugtrack.atlassian.net/rest/api/2/issuetype/project?projectId=10002
+Request URI:	https://debugtrack.atlassian.net/rest/api/2/issuetype/project?projectId=10000
 Proxy:			<none>
 Request params:	<none>
-Query params:	projectId=10002
+Query params:	projectId=10000
 Form params:	<none>
 Path params:	<none>
 Headers:		Authorization=Basic YW5qYW5za291bmRpbnlhQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjBvVnFOTW1nZ3pLeTB3cjNvX3lqM2lhYjhySW5YbkpFazFtckNjWmRITV9rRFJEX1o0WDZyM3NCSGlrQzlLX1VuZWpaNWxKcDFtMnh5RTNyWl91ZzgxTEp5a09HbUFqbWlOSEdWZkg5SFVHNEtEZm9jZlhLRlJKekduSUgweUNBajVHVko2WlI3eV83ZDlQTjcwYmdKdjVLOUVhVVU1OEJIckQ2YkFTVk85TkE9OENFRjU3N0E
@@ -154,98 +154,118 @@ HTTP/1.1 200 OK
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Tue, 09 Sep 2025 06:55:15 GMT
+Date: Sun, 14 Sep 2025 15:04:52 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 47ba18c0b6f32adf020eabbdc2356da6
-Set-Cookie: atlassian.xsrf.token=3d09d5a9666425ec99710d1f120dffbb1d25a7fd_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 76de4f5aca375b02c127ab8bc54ff295
+Set-Cookie: atlassian.xsrf.token=cf8dd7c533ae8c11d11a412ba89d12e2136100a3_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 X-Beta-Ratelimit-Limit: 350
 X-Beta-Ratelimit-Remaining: 349
 Beta-Retry-After: 1
-X-Beta-Ratelimit-Reset: 2025-09-09T06:55Z
+X-Beta-Ratelimit-Reset: 2025-09-14T15:04Z
 X-Beta-Ratelimit-Reason: jira-burst-based
 Vary: Accept-Encoding
 Content-Encoding: gzip
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 101f8f09012648d0b767bbe7590bd9ae
-Atl-Request-Id: 101f8f09-0126-48d0-b767-bbe7590bd9ae
+Atl-Traceid: a60349c85a814dae896d650eb1ed1164
+Atl-Request-Id: a60349c8-5a81-4dae-896d-650eb1ed1164
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 f3f20a29742782b48329d8ac361213ce.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: BLR50-P2
-X-Amz-Cf-Id: BMU5XX1ymt_4RWErT8Zc7s7fV1KDEqRrLdyzO7FmSTw0I2_N_dAI_g==
-Server-Timing: cdn-cache-miss,cdn-pop;desc="BLR50-P2",cdn-rid;desc="BMU5XX1ymt_4RWErT8Zc7s7fV1KDEqRrLdyzO7FmSTw0I2_N_dAI_g==",cdn-downstream-fbl;dur=436,cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=54,cdn-upstream-fbl;dur=434,atl-edge;dur=363,atl-edge-internal;dur=81,atl-edge-upstream;dur=232,atl-edge-pop;desc="aws-ap-south-1"
+Via: 1.1 4a4fb1e6e485fe801e6755c726bb61ae.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P3
+X-Amz-Cf-Id: cdc7-BraHNTsVmJbVTkNwfDsSyaVF5GXUl1p5KfMPhyQo_hlYCjSKg==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=344,atl-edge;dur=323,atl-edge-internal;dur=27,atl-edge-upstream;dur=293,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P3",cdn-rid;desc="cdc7-BraHNTsVmJbVTkNwfDsSyaVF5GXUl1p5KfMPhyQo_hlYCjSKg==",cdn-downstream-fbl;dur=352
 
 [
     {
-        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10010",
-        "id": "10010",
-        "description": "An improvement or enhancement to an existing feature or task.",
-        "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10310?size=medium",
-        "name": "Improvement",
-        "untranslatedName": "Improvement",
-        "subtask": false,
-        "avatarId": 10310,
-        "hierarchyLevel": 0
-    },
-    {
-        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10011",
-        "id": "10011",
-        "description": "A small, distinct piece of work.",
+        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10001",
+        "id": "10001",
+        "description": "Tasks track small, distinct pieces of work.",
         "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10318?size=medium",
         "name": "Task",
         "untranslatedName": "Task",
         "subtask": false,
         "avatarId": 10318,
-        "hierarchyLevel": 0
+        "hierarchyLevel": 0,
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "10000"
+            }
+        }
     },
     {
-        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10012",
-        "id": "10012",
-        "description": "A small piece of work that's part of a larger task.",
-        "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
-        "name": "Sub-task",
-        "untranslatedName": "Sub-task",
-        "subtask": true,
-        "avatarId": 10316,
-        "hierarchyLevel": -1
-    },
-    {
-        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10013",
-        "id": "10013",
-        "description": "A new feature of the product, which has yet to be developed.",
-        "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10311?size=medium",
-        "name": "New Feature",
-        "untranslatedName": "New Feature",
-        "subtask": false,
-        "avatarId": 10311,
-        "hierarchyLevel": 0
-    },
-    {
-        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10014",
-        "id": "10014",
-        "description": "A problem or error.",
+        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10002",
+        "id": "10002",
+        "description": "Bugs track problems or errors.",
         "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10303?size=medium",
         "name": "Bug",
         "untranslatedName": "Bug",
         "subtask": false,
         "avatarId": 10303,
-        "hierarchyLevel": 0
+        "hierarchyLevel": 0,
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "10000"
+            }
+        }
     },
     {
-        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10000",
-        "id": "10000",
-        "description": "A big user story that needs to be broken down. Created by Jira Software - do not edit or delete.",
-        "iconUrl": "https://debugtrack.atlassian.net/images/icons/issuetypes/epic.svg",
+        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10003",
+        "id": "10003",
+        "description": "Stories track functionality or features expressed as user goals.",
+        "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10315?size=medium",
+        "name": "Story",
+        "untranslatedName": "Story",
+        "subtask": false,
+        "avatarId": 10315,
+        "hierarchyLevel": 0,
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "10000"
+            }
+        }
+    },
+    {
+        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10004",
+        "id": "10004",
+        "description": "Epics track collections of related bugs, stories, and tasks.",
+        "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10307?size=medium",
         "name": "Epic",
         "untranslatedName": "Epic",
         "subtask": false,
-        "hierarchyLevel": 1
+        "avatarId": 10307,
+        "hierarchyLevel": 1,
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "10000"
+            }
+        }
+    },
+    {
+        "self": "https://debugtrack.atlassian.net/rest/api/2/issuetype/10005",
+        "id": "10005",
+        "description": "Subtasks track small pieces of work that are part of a larger task.",
+        "iconUrl": "https://debugtrack.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10316?size=medium",
+        "name": "Subtask",
+        "untranslatedName": "Subtask",
+        "subtask": true,
+        "avatarId": 10316,
+        "hierarchyLevel": -1,
+        "scope": {
+            "type": "PROJECT",
+            "project": {
+                "id": "10000"
+            }
+        }
     }
 ]
 Request method:	POST
@@ -264,46 +284,138 @@ Body:
 {
     "fields": {
         "issuetype": {
-            "id": "10014"
-        },
-        "project": {
             "id": "10002"
         },
-        "summary": "BDD RestAssured Issue-ABC"
+        "project": {
+            "id": "10000"
+        },
+        "summary": "BDD RestAssured Issue-Project API"
     }
 }
 HTTP/1.1 201 Created
 Content-Type: application/json;charset=UTF-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-Date: Tue, 09 Sep 2025 06:55:17 GMT
+Date: Sun, 14 Sep 2025 15:04:54 GMT
 Server: AtlassianEdge
 Timing-Allow-Origin: *
-X-Arequestid: 1ee05334abe2af7489fd6c431c13e5a9
-Set-Cookie: atlassian.xsrf.token=8ab221c6e60f5a2c3bb091842232cce3f6bd9bfc_lin; Path=/; SameSite=None; Secure
+X-Arequestid: 48ae0c9fcb72708945fcd2079a2465c7
+Set-Cookie: atlassian.xsrf.token=27f75e3fdd4a41f985e186b5dc575546848f1981_lin; Path=/; SameSite=None; Secure
 X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
 Cache-Control: no-cache, no-store, no-transform
 X-Beta-Ratelimit-Limit: 200
 X-Beta-Ratelimit-Remaining: 199
 Beta-Retry-After: 1
-X-Beta-Ratelimit-Reset: 2025-09-09T06:55Z
+X-Beta-Ratelimit-Reset: 2025-09-14T15:04Z
 X-Beta-Ratelimit-Reason: jira-burst-based
 Vary: Accept-Encoding
 X-Content-Type-Options: nosniff
 X-Xss-Protection: 1; mode=block
-Atl-Traceid: 2cc3dd88f9684b9bb276b0f8e85c5fd8
-Atl-Request-Id: 2cc3dd88-f968-4b9b-b276-b0f8e85c5fd8
+Atl-Traceid: cf6477a0e7e34cefa812fee33743d3b3
+Atl-Request-Id: cf6477a0-e7e3-4cef-a812-fee33743d3b3
 Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
 Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
 Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
 X-Cache: Miss from cloudfront
-Via: 1.1 df26f98dc48faec49f463a51b15e8efc.cloudfront.net (CloudFront)
-X-Amz-Cf-Pop: BLR50-P2
-X-Amz-Cf-Id: YzGdxdgmbp-okrSPoXubMIzAq6d0Fkr19N6d45QuosSFJNnpLu9vnQ==
-Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=16,cdn-upstream-fbl;dur=1046,atl-edge;dur=976,atl-edge-internal;dur=81,atl-edge-upstream;dur=846,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P2",cdn-rid;desc="YzGdxdgmbp-okrSPoXubMIzAq6d0Fkr19N6d45QuosSFJNnpLu9vnQ==",cdn-downstream-fbl;dur=1049
+Via: 1.1 d09c5b9f0ed9f1b6b50d896f134016f4.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P3
+X-Amz-Cf-Id: 4-vF7TFfDgzC4IuLeASfLdvgl_j7c1J2MSWVUDubLDbSzVmIFxPuzA==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=0,cdn-upstream-fbl;dur=840,atl-edge;dur=822,atl-edge-internal;dur=17,atl-edge-upstream;dur=805,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P3",cdn-rid;desc="4-vF7TFfDgzC4IuLeASfLdvgl_j7c1J2MSWVUDubLDbSzVmIFxPuzA==",cdn-downstream-fbl;dur=844
 
 {
-    "id": "10341",
-    "key": "BUG-57",
-    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10341"
+    "id": "10501",
+    "key": "SCRUM-45",
+    "self": "https://debugtrack.atlassian.net/rest/api/2/issue/10501"
+}
+Request method:	DELETE
+Request URI:	https://debugtrack.atlassian.net/rest/api/3/issue/10501
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	issueIdOrKey=10501
+Headers:		Authorization=Basic YW5qYW5za291bmRpbnlhQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjBvVnFOTW1nZ3pLeTB3cjNvX3lqM2lhYjhySW5YbkpFazFtckNjWmRITV9rRFJEX1o0WDZyM3NCSGlrQzlLX1VuZWpaNWxKcDFtMnh5RTNyWl91ZzgxTEp5a09HbUFqbWlOSEdWZkg5SFVHNEtEZm9jZlhLRlJKekduSUgweUNBajVHVko2WlI3eV83ZDlQTjcwYmdKdjVLOUVhVVU1OEJIckQ2YkFTVk85TkE9OENFRjU3N0E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 204 No Content
+Content-Type: application/json;charset=UTF-8
+Connection: keep-alive
+Date: Sun, 14 Sep 2025 15:04:55 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: c3d2858051be6b0a3f6fa8ba307fcfde
+Set-Cookie: atlassian.xsrf.token=e43d8eb54b9e96459d706240520e46e016beb690_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
+Cache-Control: no-cache, no-store, no-transform
+X-Beta-Ratelimit-Limit: 400
+X-Beta-Ratelimit-Remaining: 399
+Beta-Retry-After: 1
+X-Beta-Ratelimit-Reset: 2025-09-14T15:04Z
+X-Beta-Ratelimit-Reason: jira-burst-based
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 6d0d9483f6ee454c9a92a29a8d251437
+Atl-Request-Id: 6d0d9483-f6ee-454c-9a92-a29a8d251437
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+X-Cache: Miss from cloudfront
+Via: 1.1 21398bddf40ffbb1d89eefa9af19b88e.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P2
+X-Amz-Cf-Id: 2LcTGO8TXxU-g_H14AEk5GbDMxn3P4yGTsptp3GwJTYtYmbdGpZedg==
+Server-Timing: cdn-upstream-layer;desc="EDGE",cdn-upstream-dns;dur=0,cdn-upstream-connect;dur=16,cdn-upstream-fbl;dur=645,atl-edge;dur=575,atl-edge-internal;dur=15,atl-edge-upstream;dur=560,atl-edge-pop;desc="aws-ap-south-1",cdn-cache-miss,cdn-pop;desc="BLR50-P2",cdn-rid;desc="2LcTGO8TXxU-g_H14AEk5GbDMxn3P4yGTsptp3GwJTYtYmbdGpZedg==",cdn-downstream-fbl;dur=648
+Request method:	GET
+Request URI:	https://debugtrack.atlassian.net/rest/api/3/issue/10501
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	issueIdOrKey=10501
+Headers:		Authorization=Basic YW5qYW5za291bmRpbnlhQGdtYWlsLmNvbTpBVEFUVDN4RmZHRjBvVnFOTW1nZ3pLeTB3cjNvX3lqM2lhYjhySW5YbkpFazFtckNjWmRITV9rRFJEX1o0WDZyM3NCSGlrQzlLX1VuZWpaNWxKcDFtMnh5RTNyWl91ZzgxTEp5a09HbUFqbWlOSEdWZkg5SFVHNEtEZm9jZlhLRlJKekduSUgweUNBajVHVko2WlI3eV83ZDlQTjcwYmdKdjVLOUVhVVU1OEJIckQ2YkFTVk85TkE9OENFRjU3N0E
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 404 Not Found
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Date: Sun, 14 Sep 2025 15:04:56 GMT
+Server: AtlassianEdge
+Timing-Allow-Origin: *
+X-Arequestid: 3b8000bde3c824a12f4b6e0e1d050eb8
+Set-Cookie: atlassian.xsrf.token=609dab2656efbecf7d89a24f5cd3c6eef385c5d0_lin; Path=/; SameSite=None; Secure
+X-Aaccountid: 712020%3A6578ddc0-4bef-43c4-af1b-79cf51f76f7e
+Cache-Control: no-cache, no-store, no-transform
+X-Beta-Ratelimit-Limit: 400
+X-Beta-Ratelimit-Remaining: 399
+Beta-Retry-After: 1
+X-Beta-Ratelimit-Reset: 2025-09-14T15:04Z
+X-Beta-Ratelimit-Reason: jira-burst-based
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Atl-Traceid: 0516b6f526b54d82926ae216d784946a
+Atl-Request-Id: 0516b6f5-26b5-4d82-926a-e216d784946a
+Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+Report-To: {"endpoints": [{"url": "https://dz8aopenkvv6s.cloudfront.net"}], "group": "endpoint-1", "include_subdomains": true, "max_age": 600}
+Nel: {"failure_fraction": 0.001, "include_subdomains": true, "max_age": 600, "report_to": "endpoint-1"}
+Server-Timing: atl-edge;dur=255,atl-edge-internal;dur=15,atl-edge-upstream;dur=240,atl-edge-pop;desc="aws-ap-south-1"
+X-Cache: Error from cloudfront
+Via: 1.1 759d3a0d72fa0635da0ce753fe04d650.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: BLR50-P2
+X-Amz-Cf-Id: 1sVPgPUeCgenNEnwRcAz34IeVb_SMVOsZ9vbBxWzk4R17o4jM8q-1A==
+
+{
+    "errorMessages": [
+        "Issue does not exist or you do not have permission to see it."
+    ],
+    "errors": {
+        
+    }
 }

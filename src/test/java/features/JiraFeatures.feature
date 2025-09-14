@@ -25,6 +25,22 @@ Scenario Outline: To Create an Issue
   Examples:
 
     |summary	|
-    |BDD RestAssured Issue-ABC |
+    |BDD RestAssured Issue-Project API |
+
+  @DeleteIssue
+  Scenario: To Delete an issue
+    Given Get Created "Issue ID"
+    When user calls "DeleteIssue" API with http "DELETE" request
+    Then Successfully Deleted with status code 204
+
+
+  @GetIssue
+  Scenario: To Get Issue Details
+    Given Get Created "Issue ID"
+    When user calls "GetIssue" API with http "GET" request
+    Then the API call got success with status code 404
+
+
+
 
 
