@@ -31,7 +31,7 @@ Scenario Outline: To Create an Issue
   Scenario: To Delete an issue
     Given Get Created "Issue ID"
     When user calls "DeleteIssue" API with http "DELETE" request
-    Then Successfully Deleted with status code 204
+    Then the API call got success with status code 204
 
 
   @GetIssue
