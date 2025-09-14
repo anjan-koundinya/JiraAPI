@@ -27,14 +27,14 @@ Scenario Outline: To Create an Issue
     |summary	|
     |BDD RestAssured Issue-Project API |
 
-  @DeleteIssue
+  @DeleteIssue @Reg
   Scenario: To Delete an issue
     Given Get Created "Issue ID"
     When user calls "DeleteIssue" API with http "DELETE" request
     Then the API call got success with status code 204
 
 
-  @GetIssue
+  @GetIssue @Reg
   Scenario: To Get Issue Details
     Given Get Created "Issue ID"
     When user calls "GetIssue" API with http "GET" request
