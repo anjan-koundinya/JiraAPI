@@ -17,6 +17,7 @@ import java.util.Properties;
 public class Utility {
 
     public static RequestSpecification reqBase;
+    public static RequestSpecification NegreqBase;
     public RequestSpecification requestspecBase() throws IOException {
         if(reqBase == null) {
             PrintStream log = new PrintStream(new FileOutputStream("OutputLog.txt"));
@@ -30,6 +31,21 @@ public class Utility {
             return reqBase;
         }
         return reqBase;
+    }
+
+    public RequestSpecification requestspecBaseNeg() throws IOException {
+        if(NegreqBase == null) {
+            PrintStream log = new PrintStream(new FileOutputStream("OutputLog.txt"));
+            NegreqBase = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseURL"))
+                    .setContentType(ContentType.JSON)
+                    .addHeader("Authorization", getApiToken("NegAPITOKEN"))
+                    //.addQueryParam("id",project_Id)
+                    .addFilter(RequestLoggingFilter.logRequestTo(log))
+                    .addFilter(ResponseLoggingFilter.logResponseTo(log))
+                    .build();
+            return NegreqBase;
+        }
+        return NegreqBase;
     }
 
 

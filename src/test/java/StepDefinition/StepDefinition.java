@@ -17,7 +17,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 public class StepDefinition extends Utility {
-    private static final Log log = LogFactory.getLog(StepDefinition.class);
+    //private static final Log log = LogFactory.getLog(StepDefinition.class);
     RequestSpecification response;
     Response GetProjectResponse;
     static String projectID;
@@ -125,6 +125,21 @@ public class StepDefinition extends Utility {
 
     }
 
+
+    @Given("To Create Issue without summary")
+    public void to_create_issue_without_summary() throws IOException {
+        // Write code here that turns the phrase above into concrete actions
+        response = given().spec(requestspecBase()).body(data.createIssuePayload(projectID,IssueType,""));
+
+
+    }
+    @Then("the API call returns with status code {int}")
+    public void the_api_call_returns_with_status_code(Integer Ncode) {
+        // Write code here that turns the phrase above into concrete actions
+
+        assertEquals(Integer.valueOf(GetProjectResponse.getStatusCode()),Ncode);
+    }
+
     @Given("Get Created {string}")
     public void get_created(String Issue) throws IOException, InterruptedException {
         // Write code here that turns the phrase above into concrete actions
@@ -132,6 +147,7 @@ public class StepDefinition extends Utility {
         response = given().spec(requestspecBase()).pathParams("issueIdOrKey",IssueID);
 
     }
+
 
     @Then("Successfully Deleted with status code {int}")
     public void successfully_deleted_with_status_code(Integer code) throws InterruptedException {
